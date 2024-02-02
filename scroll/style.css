@@ -1,0 +1,22 @@
+.wrapper{
+    max-width: 400px;
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    background-color: #fff;
+    overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.item{
+    min-width: 100px;
+    height: 60px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+}
+
+
+

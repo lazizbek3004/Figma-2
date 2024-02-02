@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    padding: 20px;
+}
+.wrapper{
+    width: 1366px;
+    background-color:  #282C33;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    position: relative;
+    overflow: hidden;
+}
+nav{
+    width: 1024px;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 171px;
+    padding-top: 32px;
+    
+}
+.elias{
+    color: var(--white, #FFF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ikki ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.ikki ul span{
+    color: var(--primary, #C778DD);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ikki ul span a{
+    text-decoration: none;
+    color: var(--white, #FFF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ikki ul li{
+    color: var(--primary, #C778DD);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ikki ul li a{
+    text-decoration: none;
+    color: var(--gray, #ABB2BF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.en{
+    color: var(--gray, #ABB2BF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+main{
+    width: 1066px;
+    margin-left: 171px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 53px;
+    padding-bottom: 66px;
+}
+.first{
+    color: #FFF;
+font-family: Fira Code;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 14px;
+}
+.first span{
+    color: var(--primary, #C778DD);
+font-family: Fira Code;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.second{
+    color: #FFF;
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 46px;
+}
+.third{
+    width: 1066px;
+    display: flex;
+    justify-content: space-between;
+}
+.inter{
+    width: 505px;
+    color: var(--gray, #ABB2BF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+}
+.container{
+    display: flex;
+    gap: 11px;
+}
+.box-1{
+    width: 186px;
+    height: 82px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+.box-2{
+    width: 247px;
+    height: 141px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+.here{
+    color: #FFF;
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.raqam{
+    color: var(--gray, #ABB2BF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.disp{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.mail{
+    display: flex;
+    gap: 5px;
+}
+.mai{
+    color: var(--gray, #ABB2BF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 5px;
+}
+.fourth span{
+    color: var(--primary, #C778DD);
+font-family: Fira Code;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.fourth{
+    color: var(--white, #FFF);
+font-family: Fira Code;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 25px;
+margin-bottom: 24px;
+}
+.fifth{
+    display: flex;
+    gap: 20px;
+}
+.dove{
+    display: flex;
+    gap: 5px;
+}
+.eli{
+    color: var(--gray, #ABB2BF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 6px;
+}
+footer{
+    width: 1366px;
+    height: 226px;
+    padding-top: 32px;
+    border-top: 1px solid #ABB2BF;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-left: 171px;
+
+}
+.birinchi{
+    display: flex;
+    justify-content: space-between;
+}
+.tepasi{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+.classe{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.el{
+    color: var(--white, #FFF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.el span{
+    margin-left: 14px;
+    color: var(--gray, #ABB2BF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.web{
+    color: var(--white, #FFF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.medi{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.media{
+    color: var(--white, #FFF);
+font-family: Fira Code;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.rasm{
+    display: flex;
+    gap: 8px;
+}
+.pasi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 363px;
+}
+.made{
+    color: var(--gray, #ABB2BF);
+font-family: Fira Code;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.media-1{
+    position: absolute;
+    top: 0px;
+    left: 17px;
+}
+.frame{
+    position: absolute;
+    top: 401px;
+    left: 15px;
+}
+.boxe{
+    width: 155px;
+    height: 155px;
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 256px;
+    left: 1298px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
